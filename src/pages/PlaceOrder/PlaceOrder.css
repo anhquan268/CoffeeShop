@@ -33,3 +33,13 @@
 .proceed-payment{
     margin-top: 30px;
 }
+@media (max-width:750px) {
+    .place-order{
+        display: flex;
+        flex-direction: column;  /* xếp dọc */
+        align-items: flex-start; /* canh trái */
+        justify-content: flex-start;
+        gap: 30px;               /* giảm gap */
+        margin-top: 60px;        /* margin nhỏ hơn */
+    }
+}
